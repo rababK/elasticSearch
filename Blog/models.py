@@ -2,6 +2,9 @@ from django.db import models
 from django.contrib.auth.models import User
 
 
+#Post is a simple model with basic fields , auther field is the foreign key for the User model
+
+
 STATUS = (
     (0,"notPublished"),
     (1,"Published")
